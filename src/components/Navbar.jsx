@@ -78,8 +78,12 @@ function Navbar() {
           className="absolute top-4 z-40 left-4 w-12 h-12 rounded-full bg-gradient-to-br from-primary to-secondary"
         >
           <svg width={23} height={18} viewBox="0 0 23 18">
-            <Path d="M 2 2.5 L 20 2.5" className="top" />
-            <Path d="M 2 9.423 L 20 9.423" opacity="1" className="middle" />
+            <Path d="M 2 2.5 L 20 2.5" className="top-0" />
+            <Path
+              d="M 2 9.423 L 20 9.423"
+              opacity="1"
+              className="align-middle"
+            />
             <Path d="M 2 16.346 L 20 16.346" opacity="1" className="bottom" />
           </svg>
         </button>
