@@ -66,3 +66,22 @@ export const Numbers = [
     title: "Years",
   },
 ];
+
+// Services Section
+export const services = [
+  {
+    id: 1,
+    title: "WEB DEVELOPMENT",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, cum possimus hic optio eligendi quis a obcaecati vitae ratione odio.",
+  },
+  {
+    id: 2,
+    title: "MOBILE DEVELOPMENT",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, cum possimus hic optio eligendi quis a obcaecati vitae ratione odio.",
+  },
+  {
+    id: 3,
+    title: "WEB DESIGN",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, cum possimus hic optio eligendi quis a obcaecati vitae ratione odio.",
+  },
+];

@@ -3,4 +3,16 @@
 @theme {
   --color-primary: #ffc107;
   --color-secondary: #ff18b8;
+
+  --animate-spil-slow: spin 5s linear infinite;
+
+  @keyframes spin-slow {
+    0% {
+      transform: rotate(0deg);
+    }
+    ,
+    100% {
+      transform: rotate(360deg);
+    }
+  }
 }
