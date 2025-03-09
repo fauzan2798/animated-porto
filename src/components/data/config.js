@@ -85,3 +85,32 @@ export const services = [
     desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, cum possimus hic optio eligendi quis a obcaecati vitae ratione odio.",
   },
 ];
+
+// Skils Section
+export const skills = [
+  {
+    skill: "React",
+    percentage: 70,
+    icon: "https://img.icons8.com/office/40/react.png",
+  },
+  {
+    skill: "Node.js",
+    percentage: 75,
+    icon: "https://img.icons8.com/fluency/40/node-js.png",
+  },
+  {
+    skill: "Tailwindcss",
+    percentage: 95,
+    icon: "https://img.icons8.com/color/40/tailwindcss.png",
+  },
+  {
+    skill: "Figma",
+    percentage: 85,
+    icon: "https://img.icons8.com/office/40/figma.png",
+  },
+  {
+    skill: "Vue.js",
+    percentage: 90,
+    icon: "https://img.icons8.com/fluency/40/vuejs.png",
+  },
+];

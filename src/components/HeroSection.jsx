@@ -6,12 +6,12 @@ import SocialButtons from "./SocialButtons";
 
 function HeroSection() {
   return (
-    <section className=" border-primary w-full min-h-screen relative flex justify-center items-center">
+    <section className="relative w-full">
       <header className="absolute w-1/2 aspect-[16/5] -skew-x-12 rounded-full bg-gradient-to-r from-[#007cda] via-[#785ae4] to-primary opacity-20 blur-[100px] left-10 bottom-0 hidden md:block "></header>
       <header className="absolute w-1/2 aspect-[16/5] -skew-x-12 rounded-full bg-gradient-to-r from-[#007cda] via-[#785ae4] to-primary opacity-20 blur-[100px] right-10 bottom-0 hidden md:block "></header>
 
-      <section className="w-full px-5 sm:px-8 md:px-12 lg:px-20 max-w-screen-lg lg:max-w-screen-xl mx-auto ">
-        <article className="grid lg:grid-cols-2 gap-8 xl:gap-16 justify-items-center">
+      <section className="w-full px-5 sm:px-8 md:px-12 lg:px-0 max-w-screen-lg lg:max-w-screen-xl mx-auto relative ">
+        <article className="grid lg:grid-cols-2 gap-10 xl:gap-6 relative pt-24 lg:max-w-none max-w-xl md:max-w-3xl mx-auto">
           <section className="lg:py-6 flex justify-between">
             <SocialButtons />
             <section className="ml-0 md:ml-12">
