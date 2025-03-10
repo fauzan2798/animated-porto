@@ -124,7 +124,7 @@ export const education = [
     year: "2022-Present",
     details:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, accusantium.",
-    icon: "https://img.icon8.com/paste-gylph/64/ffffff/graduation-cap--v2.png",
+    icon: "https://img.icons8.com/pastel-glyph/64/ffffff/graduation-cap--v2.png",
   },
   {
     id: 2,
@@ -133,7 +133,7 @@ export const education = [
     year: "2022-Present",
     details:
       "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, accusantium.",
-    icon: "https://img.icon8.com/paste-gylph/64/ffffff/graduation-cap--v2.png",
+    icon: "https://img.icons8.com/pastel-glyph/64/ffffff/graduation-cap--v2.png",
   },
 ];
 export const experience = [
@@ -143,7 +143,7 @@ export const experience = [
     company: "Tech Solutions Inc.",
     year: "2022-Present",
     desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, accusantium.",
-    icon: "https://img.icon8.com/ios-filled/64/ffffff/briefcase-settings.png",
+    icon: "https://img.icons8.com/ios-filled/64/ffffff/briefcase-settings.png",
   },
   {
     id: 2,
@@ -151,6 +151,50 @@ export const experience = [
     company: "StartUp",
     year: "2022-Present",
     desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, accusantium.",
-    icon: "https://img.icon8.com/ios-filled/64/ffffff/briefcase-settings.png",
+    icon: "https://img.icons8.com/ios-filled/64/ffffff/briefcase-settings.png",
+  },
+];
+
+// Project Section
+export const projects = [
+  {
+    id: 1,
+    title: "Project 1",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime molestiae ut quos ullam officiis debitis.",
+    imageUrl: "https://picsum.photos/id/237/1200/500",
+  },
+  {
+    id: 2,
+    title: "Project 2",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime molestiae ut quos ullam officiis debitis.",
+    imageUrl: "https://picsum.photos/id/238/1200/500",
+  },
+  {
+    id: 3,
+    title: "Project 3",
+    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime molestiae ut quos ullam officiis debitis.",
+    imageUrl: "https://picsum.photos/id/239/1200/500",
+  },
+];
+
+// Contact Section
+export const contactData = [
+  {
+    id: 1,
+    title: "Address",
+    desc: "Lorem ipsum dolor sit amet.",
+    icon: "https://img.icons8.com/ios-filled/50/ffffff/address--v1.png",
+  },
+  {
+    id: 2,
+    title: "Phone Number",
+    desc: "+152 125 152 255",
+    icon: "https://img.icons8.com/ios-filled/50/ffffff/phone.png",
+  },
+  {
+    id: 3,
+    title: "Email",
+    desc: "Example@gmail.com",
+    icon: "https://img.icons8.com/pastel-glyph/50/ffffff/new-post--v1.png",
   },
 ];

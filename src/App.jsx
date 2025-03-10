@@ -3,6 +3,7 @@ import HeroSection from "./components/HeroSection";
 
 import Navbar from "./components/Navbar";
 import NumbersSection from "./components/NumbersSection";
+import ProjectsSection from "./components/ProjectsSection";
 import ServicesSection from "./components/ServicesButton";
 import SkillsSection from "./components/SkillsSection";
 import ThreeBackground from "./components/ThreeBackground";
@@ -17,6 +18,7 @@ function App() {
       <ServicesSection />
       <SkillsSection />
       <EducationAndExperience />
+      <ProjectsSection />
     </div>
   );
 }
