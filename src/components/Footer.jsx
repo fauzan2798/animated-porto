@@ -10,7 +10,7 @@ function Footer() {
   };
 
   return (
-    <footer className="text-white relative z-10 border-t-2 border-t-white mt-20 ">
+    <footer className="text-white relative z-1 border-t-2 border-t-white mt-20 ">
       <div className="container p-8 flex justify-between items-center">
         <div className="text-3xl font-bold flex">LOGO</div>
         <nav className="flex ml-2">

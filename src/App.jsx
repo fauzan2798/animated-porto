@@ -1,3 +1,4 @@
+import BackToTop from "./components/BackToTop";
 import ContactUs from "./components/ContactUs";
 import EducationAndExperience from "./components/EducationAndExperience";
 import Footer from "./components/Footer";
@@ -23,6 +24,7 @@ function App() {
       <ProjectsSection />
       <ContactUs />
       <Footer />
+      <BackToTop />
     </div>
   );
 }
