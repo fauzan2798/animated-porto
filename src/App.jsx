@@ -1,5 +1,6 @@
 import ContactUs from "./components/ContactUs";
 import EducationAndExperience from "./components/EducationAndExperience";
+import Footer from "./components/Footer";
 import HeroSection from "./components/HeroSection";
 
 import Navbar from "./components/Navbar";
@@ -21,6 +22,7 @@ function App() {
       <EducationAndExperience />
       <ProjectsSection />
       <ContactUs />
+      <Footer />
     </div>
   );
 }
