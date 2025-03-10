@@ -1,3 +1,4 @@
+import EducationAndExperience from "./components/EducationAndExperience";
 import HeroSection from "./components/HeroSection";
 
 import Navbar from "./components/Navbar";
@@ -15,6 +16,7 @@ function App() {
       <NumbersSection />
       <ServicesSection />
       <SkillsSection />
+      <EducationAndExperience />
     </div>
   );
 }

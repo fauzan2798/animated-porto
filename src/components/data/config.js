@@ -114,3 +114,43 @@ export const skills = [
     icon: "https://img.icons8.com/fluency/40/vuejs.png",
   },
 ];
+
+// Education And Experience
+export const education = [
+  {
+    id: 1,
+    degree: "Frontend Developer",
+    institution: "Tech Solutions Inc.",
+    year: "2022-Present",
+    details:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, accusantium.",
+    icon: "https://img.icon8.com/paste-gylph/64/ffffff/graduation-cap--v2.png",
+  },
+  {
+    id: 2,
+    degree: "Frontend Developer",
+    institution: "StartUp",
+    year: "2022-Present",
+    details:
+      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, accusantium.",
+    icon: "https://img.icon8.com/paste-gylph/64/ffffff/graduation-cap--v2.png",
+  },
+];
+export const experience = [
+  {
+    id: 1,
+    title: "Frontend Developer",
+    company: "Tech Solutions Inc.",
+    year: "2022-Present",
+    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, accusantium.",
+    icon: "https://img.icon8.com/ios-filled/64/ffffff/briefcase-settings.png",
+  },
+  {
+    id: 2,
+    title: "Frontend Developer",
+    company: "StartUp",
+    year: "2022-Present",
+    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et, accusantium.",
+    icon: "https://img.icon8.com/ios-filled/64/ffffff/briefcase-settings.png",
+  },
+];
