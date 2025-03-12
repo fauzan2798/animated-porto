@@ -44,7 +44,7 @@ function NumbersSection() {
         className=" relative z-1 mx-auto w-11/12 lg:mx-0 p-5 sm:p6 py-6 sm:py-8 border border-primary bg-[#ffffff29] shadow-lg rounded-3xl *:md:divide-x divide-primary grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6 lg:gap-12"
       >
         {Numbers.map((item) => (
-          <article className="items-center">
+          <article key={item.id} className="items-center">
             <header>
               <h2 className="font-semibold text-xl sm:text-2xl md:text-4xl">
                 +

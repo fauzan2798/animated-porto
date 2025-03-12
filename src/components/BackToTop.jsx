@@ -28,7 +28,7 @@ function BackToTop() {
       {showButton && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-8 right-8 text-primary bg-transparent p-3 rounded-full shadow-lg transition-colors z-[110px] flex items-center justify-center"
+          className="fixed bottom-8 right-8 text-primary bg-transparent p-3 rounded-full shadow-lg transition-colors z-[140] flex items-center justify-center"
           aria-label="scroll to top"
           style={{ width: "50px", height: "50px" }}
         >

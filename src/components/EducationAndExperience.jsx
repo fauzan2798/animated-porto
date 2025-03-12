@@ -28,7 +28,7 @@ function EducationAndExperience() {
   return (
     <section
       className="relative cointainer mx-auto px-4 py-12 lg:p-16"
-      id="Experience"
+      id="experience"
     >
       <CustomTitle title={"Education & Experience"} />
 

@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import { AnimatePresence, motion } from "motion/react";
+import { AnimatePresence, motion } from "framer-motion";
 import { useState } from "react";
 import { projects } from "./data/config";
 import CustomTitle from "./CustomTitle";
@@ -42,11 +42,12 @@ function ProjectsSection() {
         </nav>
 
         <article className="relative w-full h-screen flex items-center justify-center">
-          <AnimatePresence initial={false}>
+          <AnimatePresence mode="wait" initial={false}>
             {projects.map(
               (project, index) =>
                 index === currentIndex && (
                   <motion.article
+                    key={project.id}
                     initial={{ opacity: 0, scale: 0.8, x: 100 }}
                     animate={{ opacity: 1, scale: 1, x: 0, rotateY: 0 }}
                     exit={{ opacity: 0, scale: 0.8, x: -100 }}
